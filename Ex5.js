@@ -8,4 +8,6 @@ const users = [{
         email: "bfbio2gmail.com"
     }
 ]
-const
+const userJson = JSON.stringify(users);
+writeFileSync("C:/dev17/backend/user.json", userJson);
+console.log("Written Succesfully")
